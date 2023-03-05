@@ -30,5 +30,10 @@
 
         public const string IkinciSatir = "İkinci matrisin SATIR sayısını giriniz: ";
         public const string IkinciSutun = "İkinci matrisin SÜTUN sayısını giriniz: ";
+
+        #region Hata turu mesajlari
+        public const string SystemFormatException = "Girilen değer bir sayıya dönüştürülemiyor! Bu yüzden işlem yapılamıyor.";
+        public const string SystemOverflowException = "Girilen değer kabul edilen değer aralığının dışında! Bu yüzden işlem yapılamıyor.";
+        #endregion
     }
 }

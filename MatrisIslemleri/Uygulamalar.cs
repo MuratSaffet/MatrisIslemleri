@@ -1,4 +1,6 @@
-﻿namespace MatrisIslemleri
+﻿using MatrisIslemleri.Extensions;
+
+namespace MatrisIslemleri
 {
     internal class Uygulamalar
     {
@@ -109,7 +111,7 @@
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.HataMesaji());
                 return;
             }
 
@@ -162,7 +164,7 @@
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.HataMesaji());
                 return;
             }
 
@@ -196,7 +198,7 @@
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.HataMesaji());
                 return;
             }
 
@@ -247,7 +249,7 @@
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.HataMesaji());
                 return;
             }
 
@@ -290,7 +292,7 @@
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.HataMesaji());
                 return;
             }
 
@@ -335,7 +337,7 @@
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.HataMesaji());
                 return;
             }
         }
@@ -356,7 +358,7 @@
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.HataMesaji());
                 return;
             }
 
@@ -411,7 +413,7 @@
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.HataMesaji());
                 return;
             }
 
@@ -464,7 +466,7 @@
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.HataMesaji());
                 return;
             }
 
@@ -522,7 +524,7 @@
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.HataMesaji());
                 return;
             }
 
