@@ -25,12 +25,12 @@
 
         private static void MenuDoldurma()
         {
-            menu.Add(1, "Girilen matris, sifir matris mi diye kontrol etme");
+            menu.Add(1, "Girilen matrisi, sıfır matris mi diye kontrol etme");
             menu.Add(2, "Kullanıcının kare matris oluşturmasını sağlama");
-            menu.Add(3, "Girilen matris birim matris mi diye kontrol etme");
+            menu.Add(3, "Girilen matrisi, birim matris mi diye kontrol etme");
             menu.Add(4, "Girilen iki matrisin eşit olup olmadığını bulma");
             menu.Add(5, "Girilen matrisin transpozunu(devriğini) bulma");
-            menu.Add(6, "Girilen matrisi bir tam sayı ile çarpma");
+            menu.Add(6, "Girilen matrisi, bir tam sayı ile çarpma");
             menu.Add(7, "Girilen iki matrisi toplama");
             menu.Add(8, "Girilen iki matris için çıkarma işlemi yapma");
             menu.Add(9, "Girilen iki matrisi çarpma");
